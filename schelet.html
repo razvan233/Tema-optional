@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <script type="text/javascript" src="myScript.js" defer></script>
+</head>
+
+<body style="background-color:#A9D0F5">
+    <input name='firstNumber' id='firstNumber' type='text' placeholder='Primul numar' onblur="bringNumbers('firstNumber','secondNumber')">
+    <input name='secondNumber' id='secondNumber' type='text' placeholder='Al doilea numar' onblur="bringNumbers('firstNumber','secondNumber')">
+    <input name='matchNumber' id='matchNumber' type='text' placeholder='Rezultat' readonly><br>
+    <button id="suma" onclick="adunare();">Aduna</button>
+    <button id="scadere" onclick="scadere();">Scade</button>
+    <button id="inmulutrie" onclick="inmulutrie();">Inmulteste</button>
+    <button id="impartire" onclick="impartire();">Imparte</button>
+</body>
+
+</html>
